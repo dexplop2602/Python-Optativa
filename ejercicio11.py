@@ -16,4 +16,4 @@ primer = cantidad - cantidad * Interes
 segundo = cantidad - (cantidad * (Interes * 2))
 tercer = cantidad - (cantidad * (Interes * 3))
 
-print (f"Cantidad tras el primer año: {primer}, Cantidad tras el segundo año: {segundo}, Cantidad tras el tercer año: {tercer} ")
+print (f"Cantidad tras el primer año: {primer:.2f}, Cantidad tras el segundo año: {segundo:.2f}, Cantidad tras el tercer año: {tercer:.2f} ")
