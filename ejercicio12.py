@@ -12,7 +12,7 @@ descuento = 0.6
 numero = float(input("Ingresa el numero de barras vendidas: "))
 
 CosteNormal = numero * precio
-Costefinal = numero * (precio * descuento)
+Costefinal = numero * (precio -(precio * descuento))
 
 print(f"El precio habitual por barra {precio}")
 print(f"El de las barras que usted ha comprado: {CosteNormal:.2f}")
