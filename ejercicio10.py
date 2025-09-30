@@ -14,5 +14,6 @@ muñecas = float(input("Numero de muñecas: "))
 
 calculopayaso = payasos * 112
 calculomuñecas = muñecas * 75
+pesototal = calculomuñecas + calculopayaso
 
-print (f"Los payasos pesan en total {calculopayaso}G, Las muñecas pesan {calculomuñecas}G")
+print (f"Los payasos pesan en total {calculopayaso}G, Las muñecas pesan {calculomuñecas}G, peso total {pesototal}")
