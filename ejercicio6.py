@@ -7,3 +7,5 @@ positivos puede ser calculada de la siguiente forma:"""
 Numero = float(input("Introduzca un entero positivo: "))
 
 suma = Numero * (Numero + 1) / 2
+
+print (f"La suma de todos los enteros desde 1 hasta {Numero} es: {suma}")
