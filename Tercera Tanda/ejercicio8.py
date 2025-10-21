@@ -18,7 +18,6 @@ puntuacion = float(input("Indique su puntuacion: "))
 
 nivel = ""
 dinero = ""
-
 if puntuacion == 0.0:
     nivel = "Inaceptable"
     dinero = 2400 * puntuacion
