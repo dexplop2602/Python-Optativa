@@ -11,11 +11,15 @@ para que elija. Solo se puede elegir un ingrediente además de la mozzarella y e
 tomate que están en todas las pizzas. Al final se debe mostrar por pantalla si la
 pizza elegida es vegetariana o no y todos los ingredientes que lleva."""
 
-tipopizza = input("Quieres una pizza vegetariana si o no: ")
+tipopizza = input("Quieres una pizza vegetariana o no vegetariana: ")
 
-if tipopizza == "si":
-    ingredientes = "Los ingredientes son: Pimiento, Tofu"
-    print (f"{ingredientes}")
-if tipopizza == "no":
-    ingredientes = "Los ingredientes son: Peperoni, Jamon y Salmon"
-    print (f"{ingredientes}")
+if tipopizza == "vegetariana":
+    ingredientes2 = input ("Eliga unos de los ingredientes entre mozzarella y tomate: ")
+    print (f"Los ingredientes son {ingredientes2}")
+    ingredientesvegana = ("Ingredientes vegetarianos: Pimiento y tofu.")
+    print (f"Los ingredientes son {ingredientes2} y {ingredientesvegana}")
+
+if tipopizza == "no vegetariana":
+    ingredientes2 = input ("Eliga unos de los ingredientes entre mozzarella y tomate: ")
+    ingredientescarnivora = ("Ingredientes no vegetarianos: Peperoni, Jamón y Salmón.")
+    print (f"Los ingredientes son {ingredientes2} y {ingredientescarnivora}")
