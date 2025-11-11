@@ -14,15 +14,15 @@ nota4 = int(input("Que nota has sacado en Historia: "))
 nota5 = int(input("Que nota has sacado en Lengua: "))
 
 
-if nota1 < 5:
+if nota1 > 5:
     curso.remove("Matematicas")
-if nota2 < 5:
+if nota2 > 5:
     curso.remove("Fisica")
-if nota3 < 5:
+if nota3 > 5:
     curso.remove("Quimica")
-if nota4 < 5:
+if nota4 > 5:
     curso.remove("Historia")
-if nota5 < 5:
+if nota5 > 5:
     curso.remove("Lengua")
 
 print(f"El usuario tiene que repetir: {curso}")
