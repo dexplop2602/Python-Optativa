@@ -5,3 +5,12 @@ electrónico, etc.) que se le pida al usuario. Cada vez que se añada un nuevo d
 debe imprimirse el contenido del diccionario."""
 
 diccionario = {}
+
+datos = {'Nombre','Edad','Sexo'}
+
+for i in datos:
+    valor = input(f"Escriba su {datos}")
+
+    diccionario[i] = valor
+
+    print(f"{diccionario[i]}")
